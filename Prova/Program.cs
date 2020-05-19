@@ -16,6 +16,8 @@ namespace Prova
             Console.WriteLine(differenza);
             string parte_uguale = ClassBioInfo.BioInformatica.Parte_Uguale();
             Console.WriteLine(parte_uguale);
+            int differenti = ClassBioInfo.BioInformatica.numero_caratteri_differenti();
+            Console.WriteLine($"I caratteri differenti sono {differenti}");
             Console.ReadLine();
         }
     }
