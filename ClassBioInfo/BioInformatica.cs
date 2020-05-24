@@ -34,7 +34,7 @@ namespace ClassBioInfo
         {
 
             string stringa2 = "";
-
+             
             if (File.Exists(fileresistente))
             {
                 using (StreamReader sr = new StreamReader(fileresistente, Encoding.UTF8))
