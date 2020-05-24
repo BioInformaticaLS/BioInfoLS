@@ -17,7 +17,7 @@ namespace ProvaBioInformatica
 
             //LUNGHEZZA STRINGHE
             long lunghezzasensibile = BioInformatica.LunghezzaStringa1();
-            long lunghezzaresistente = BioInformatica.LunghezzaStringa2();
+            long lunghezzaresistente = BioInformatica.LunghezzaStringa2(); 
             Console.WriteLine($"La lunghezza della stringa sendibile é: {lunghezzasensibile}");
             Console.WriteLine("");
             Console.WriteLine($"La lunghezza della stringa resistente é: {lunghezzaresistente}");
