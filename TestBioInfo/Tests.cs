@@ -46,6 +46,16 @@ namespace TestBioInfo
             Assert.AreEqual(lunghezzaaspettata, lunghezzaresistente);
         }
 
+        [DataTestMethod]
+        [DataRow("sensibile.txt", "resistente.txt,", 3901, 3901)]
+        public void DataTestLunghezza(string filesensibile, string fileresistente, int lunghezzasensibile, int lunghezzaresistente)
+        {
+            long lungsensibile = BioInformatica.LunghezzaStringa1();
+            long lungresistente = BioInformatica.LunghezzaStringa2();
+            Assert.AreEqual(lunghezzasensibile, lungsensibile);
+            Assert.AreEqual(lungresistente, lungresistente);
+        }
+
         //TEST POSIZIONE DELLA PRIMA DIFFERENZA
 
         [TestMethod]
